@@ -15,6 +15,10 @@ public class User {
     public User() {
     }
 
+    public User(final byte[] userDao) {
+        this.userDao = userDao;
+    }
+
     public Integer getId() {
         return id;
     }
